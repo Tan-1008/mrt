@@ -1,0 +1,5 @@
+  File "/home/tan/erc_ws/install/week0_tutorials/lib/python3.10/site-packages/week0_tutorials/talker.py", line 3
+    def timer_callback(timer, 1):
+                              ^
+SyntaxError: invalid syntax
+

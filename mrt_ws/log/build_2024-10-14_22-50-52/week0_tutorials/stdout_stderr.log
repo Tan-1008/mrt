@@ -1,0 +1,27 @@
+running egg_info
+writing ../../build/week0_tutorials/week0_tutorials.egg-info/PKG-INFO
+writing dependency_links to ../../build/week0_tutorials/week0_tutorials.egg-info/dependency_links.txt
+writing entry points to ../../build/week0_tutorials/week0_tutorials.egg-info/entry_points.txt
+writing requirements to ../../build/week0_tutorials/week0_tutorials.egg-info/requires.txt
+writing top-level names to ../../build/week0_tutorials/week0_tutorials.egg-info/top_level.txt
+reading manifest file '../../build/week0_tutorials/week0_tutorials.egg-info/SOURCES.txt'
+writing manifest file '../../build/week0_tutorials/week0_tutorials.egg-info/SOURCES.txt'
+running build
+running build_py
+copying week0_tutorials/listener.py -> /home/tan/erc_ws/build/week0_tutorials/build/lib/week0_tutorials
+copying week0_tutorials/talker.py -> /home/tan/erc_ws/build/week0_tutorials/build/lib/week0_tutorials
+running install
+running install_lib
+copying /home/tan/erc_ws/build/week0_tutorials/build/lib/week0_tutorials/listener.py -> /home/tan/erc_ws/install/week0_tutorials/lib/python3.10/site-packages/week0_tutorials
+copying /home/tan/erc_ws/build/week0_tutorials/build/lib/week0_tutorials/talker.py -> /home/tan/erc_ws/install/week0_tutorials/lib/python3.10/site-packages/week0_tutorials
+byte-compiling /home/tan/erc_ws/install/week0_tutorials/lib/python3.10/site-packages/week0_tutorials/listener.py to listener.cpython-310.pyc
+byte-compiling /home/tan/erc_ws/install/week0_tutorials/lib/python3.10/site-packages/week0_tutorials/talker.py to talker.cpython-310.pyc
+running install_data
+copying package.xml -> /home/tan/erc_ws/install/week0_tutorials/share/week0_tutorials
+running install_egg_info
+removing '/home/tan/erc_ws/install/week0_tutorials/lib/python3.10/site-packages/week0_tutorials-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/week0_tutorials/week0_tutorials.egg-info to /home/tan/erc_ws/install/week0_tutorials/lib/python3.10/site-packages/week0_tutorials-0.0.0-py3.10.egg-info
+running install_scripts
+Installing publisher script to /home/tan/erc_ws/install/week0_tutorials/lib/week0_tutorials
+Installing subscriber script to /home/tan/erc_ws/install/week0_tutorials/lib/week0_tutorials
+writing list of installed files to '/home/tan/erc_ws/build/week0_tutorials/install.log'

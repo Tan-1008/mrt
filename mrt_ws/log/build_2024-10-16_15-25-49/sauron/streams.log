@@ -1,0 +1,45 @@
+[0.530s] Invoking command in '/home/tan/erc_ws/src/sauron': PYTHONPATH=/home/tan/erc_ws/build/sauron/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/tan/erc_ws/install/sauron/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/sauron build --build-base /home/tan/erc_ws/build/sauron/build install --record /home/tan/erc_ws/build/sauron/install.log --single-version-externally-managed install_data
+[0.675s] running egg_info
+[0.675s] creating ../../build/sauron/sauron.egg-info
+[0.675s] writing ../../build/sauron/sauron.egg-info/PKG-INFO
+[0.675s] writing dependency_links to ../../build/sauron/sauron.egg-info/dependency_links.txt
+[0.675s] writing entry points to ../../build/sauron/sauron.egg-info/entry_points.txt
+[0.676s] writing requirements to ../../build/sauron/sauron.egg-info/requires.txt
+[0.676s] writing top-level names to ../../build/sauron/sauron.egg-info/top_level.txt
+[0.676s] writing manifest file '../../build/sauron/sauron.egg-info/SOURCES.txt'
+[0.676s] reading manifest file '../../build/sauron/sauron.egg-info/SOURCES.txt'
+[0.677s] writing manifest file '../../build/sauron/sauron.egg-info/SOURCES.txt'
+[0.677s] running build
+[0.677s] running build_py
+[0.677s] creating /home/tan/erc_ws/build/sauron/build
+[0.677s] creating /home/tan/erc_ws/build/sauron/build/lib
+[0.677s] creating /home/tan/erc_ws/build/sauron/build/lib/sauron
+[0.678s] copying sauron/listener.py -> /home/tan/erc_ws/build/sauron/build/lib/sauron
+[0.678s] copying sauron/talker1.py -> /home/tan/erc_ws/build/sauron/build/lib/sauron
+[0.678s] copying sauron/talker2.py -> /home/tan/erc_ws/build/sauron/build/lib/sauron
+[0.678s] copying sauron/__init__.py -> /home/tan/erc_ws/build/sauron/build/lib/sauron
+[0.678s] running install
+[0.678s] running install_lib
+[0.678s] creating /home/tan/erc_ws/install/sauron/lib/python3.10/site-packages/sauron
+[0.678s] copying /home/tan/erc_ws/build/sauron/build/lib/sauron/listener.py -> /home/tan/erc_ws/install/sauron/lib/python3.10/site-packages/sauron
+[0.679s] copying /home/tan/erc_ws/build/sauron/build/lib/sauron/talker1.py -> /home/tan/erc_ws/install/sauron/lib/python3.10/site-packages/sauron
+[0.679s] copying /home/tan/erc_ws/build/sauron/build/lib/sauron/talker2.py -> /home/tan/erc_ws/install/sauron/lib/python3.10/site-packages/sauron
+[0.679s] copying /home/tan/erc_ws/build/sauron/build/lib/sauron/__init__.py -> /home/tan/erc_ws/install/sauron/lib/python3.10/site-packages/sauron
+[0.679s] byte-compiling /home/tan/erc_ws/install/sauron/lib/python3.10/site-packages/sauron/listener.py to listener.cpython-310.pyc
+[0.679s] byte-compiling /home/tan/erc_ws/install/sauron/lib/python3.10/site-packages/sauron/talker1.py to talker1.cpython-310.pyc
+[0.680s] byte-compiling /home/tan/erc_ws/install/sauron/lib/python3.10/site-packages/sauron/talker2.py to talker2.cpython-310.pyc
+[0.680s] byte-compiling /home/tan/erc_ws/install/sauron/lib/python3.10/site-packages/sauron/__init__.py to __init__.cpython-310.pyc
+[0.680s] running install_data
+[0.680s] creating /home/tan/erc_ws/install/sauron/share/ament_index
+[0.680s] creating /home/tan/erc_ws/install/sauron/share/ament_index/resource_index
+[0.680s] creating /home/tan/erc_ws/install/sauron/share/ament_index/resource_index/packages
+[0.681s] copying resource/sauron -> /home/tan/erc_ws/install/sauron/share/ament_index/resource_index/packages
+[0.681s] copying package.xml -> /home/tan/erc_ws/install/sauron/share/sauron
+[0.681s] running install_egg_info
+[0.681s] Copying ../../build/sauron/sauron.egg-info to /home/tan/erc_ws/install/sauron/lib/python3.10/site-packages/sauron-0.0.0-py3.10.egg-info
+[0.681s] running install_scripts
+[0.695s] Installing publisher1 script to /home/tan/erc_ws/install/sauron/lib/sauron
+[0.695s] Installing publisher2 script to /home/tan/erc_ws/install/sauron/lib/sauron
+[0.695s] Installing subscriber script to /home/tan/erc_ws/install/sauron/lib/sauron
+[0.695s] writing list of installed files to '/home/tan/erc_ws/build/sauron/install.log'
+[0.712s] Invoked command in '/home/tan/erc_ws/src/sauron' returned '0': PYTHONPATH=/home/tan/erc_ws/build/sauron/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/tan/erc_ws/install/sauron/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/sauron build --build-base /home/tan/erc_ws/build/sauron/build install --record /home/tan/erc_ws/build/sauron/install.log --single-version-externally-managed install_data

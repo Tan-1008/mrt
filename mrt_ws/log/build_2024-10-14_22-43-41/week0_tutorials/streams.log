@@ -1,0 +1,43 @@
+[0.349s] Invoking command in '/home/tan/erc_ws/src/week0_tutorials': PYTHONPATH=/home/tan/erc_ws/build/week0_tutorials/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/tan/erc_ws/install/week0_tutorials/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/week0_tutorials build --build-base /home/tan/erc_ws/build/week0_tutorials/build install --record /home/tan/erc_ws/build/week0_tutorials/install.log --single-version-externally-managed install_data
+[0.470s] running egg_info
+[0.471s] creating ../../build/week0_tutorials/week0_tutorials.egg-info
+[0.471s] writing ../../build/week0_tutorials/week0_tutorials.egg-info/PKG-INFO
+[0.471s] writing dependency_links to ../../build/week0_tutorials/week0_tutorials.egg-info/dependency_links.txt
+[0.471s] writing entry points to ../../build/week0_tutorials/week0_tutorials.egg-info/entry_points.txt
+[0.471s] writing requirements to ../../build/week0_tutorials/week0_tutorials.egg-info/requires.txt
+[0.471s] writing top-level names to ../../build/week0_tutorials/week0_tutorials.egg-info/top_level.txt
+[0.471s] writing manifest file '../../build/week0_tutorials/week0_tutorials.egg-info/SOURCES.txt'
+[0.472s] reading manifest file '../../build/week0_tutorials/week0_tutorials.egg-info/SOURCES.txt'
+[0.472s] writing manifest file '../../build/week0_tutorials/week0_tutorials.egg-info/SOURCES.txt'
+[0.472s] running build
+[0.472s] running build_py
+[0.472s] creating /home/tan/erc_ws/build/week0_tutorials/build
+[0.472s] creating /home/tan/erc_ws/build/week0_tutorials/build/lib
+[0.473s] creating /home/tan/erc_ws/build/week0_tutorials/build/lib/week0_tutorials
+[0.473s] copying week0_tutorials/talker.py -> /home/tan/erc_ws/build/week0_tutorials/build/lib/week0_tutorials
+[0.473s] copying week0_tutorials/__init__.py -> /home/tan/erc_ws/build/week0_tutorials/build/lib/week0_tutorials
+[0.473s] running install
+[0.473s] running install_lib
+[0.473s] creating /home/tan/erc_ws/install/week0_tutorials/lib/python3.10/site-packages/week0_tutorials
+[0.473s] copying /home/tan/erc_ws/build/week0_tutorials/build/lib/week0_tutorials/talker.py -> /home/tan/erc_ws/install/week0_tutorials/lib/python3.10/site-packages/week0_tutorials
+[0.473s] copying /home/tan/erc_ws/build/week0_tutorials/build/lib/week0_tutorials/__init__.py -> /home/tan/erc_ws/install/week0_tutorials/lib/python3.10/site-packages/week0_tutorials
+[0.473s] byte-compiling /home/tan/erc_ws/install/week0_tutorials/lib/python3.10/site-packages/week0_tutorials/talker.py to talker.cpython-310.pyc
+[0.473s] byte-compiling /home/tan/erc_ws/install/week0_tutorials/lib/python3.10/site-packages/week0_tutorials/__init__.py to __init__.cpython-310.pyc
+[0.474s] running install_data
+[0.474s] creating /home/tan/erc_ws/install/week0_tutorials/share/ament_index
+[0.474s] creating /home/tan/erc_ws/install/week0_tutorials/share/ament_index/resource_index
+[0.474s] creating /home/tan/erc_ws/install/week0_tutorials/share/ament_index/resource_index/packages
+[0.474s] copying resource/week0_tutorials -> /home/tan/erc_ws/install/week0_tutorials/share/ament_index/resource_index/packages
+[0.474s] copying package.xml -> /home/tan/erc_ws/install/week0_tutorials/share/week0_tutorials
+[0.474s] running install_egg_info
+[0.474s]   File "/home/tan/erc_ws/install/week0_tutorials/lib/python3.10/site-packages/week0_tutorials/talker.py", line 3
+[0.474s]     def timer_callback(timer, 1):
+[0.474s]                               ^
+[0.474s] SyntaxError: invalid syntax
+[0.474s] 
+[0.475s] Copying ../../build/week0_tutorials/week0_tutorials.egg-info to /home/tan/erc_ws/install/week0_tutorials/lib/python3.10/site-packages/week0_tutorials-0.0.0-py3.10.egg-info
+[0.475s] running install_scripts
+[0.488s] Installing publisher script to /home/tan/erc_ws/install/week0_tutorials/lib/week0_tutorials
+[0.488s] Installing subscriber script to /home/tan/erc_ws/install/week0_tutorials/lib/week0_tutorials
+[0.488s] writing list of installed files to '/home/tan/erc_ws/build/week0_tutorials/install.log'
+[0.501s] Invoked command in '/home/tan/erc_ws/src/week0_tutorials' returned '0': PYTHONPATH=/home/tan/erc_ws/build/week0_tutorials/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/tan/erc_ws/install/week0_tutorials/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/week0_tutorials build --build-base /home/tan/erc_ws/build/week0_tutorials/build install --record /home/tan/erc_ws/build/week0_tutorials/install.log --single-version-externally-managed install_data

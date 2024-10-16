@@ -1,0 +1,6 @@
+source;share/sauron/hook/pythonpath.ps1
+source;share/sauron/hook/pythonpath.dsv
+source;share/sauron/hook/pythonpath.sh
+source;share/sauron/hook/ament_prefix_path.ps1
+source;share/sauron/hook/ament_prefix_path.dsv
+source;share/sauron/hook/ament_prefix_path.sh

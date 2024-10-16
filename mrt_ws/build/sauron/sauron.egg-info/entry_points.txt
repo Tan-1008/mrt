@@ -1,0 +1,5 @@
+[console_scripts]
+publisher1 = sauron.talker1:main
+publisher2 = sauron.talker2:main
+subscriber = sauron.listener:main
+
