@@ -1,0 +1,7 @@
+[0.008s] Invoking command in '/home/tan/mrt/mrt_ws/src/interface_opencv/build/interface_opencv': /usr/bin/cmake /home/tan/mrt/mrt_ws/src/interface_opencv -DCMAKE_INSTALL_PREFIX=/home/tan/mrt/mrt_ws/src/interface_opencv/install/interface_opencv
+[0.027s] [31mCMake Error at CMakeLists.txt:28:
+[0.027s]   Parse error.  Expected "(", got identifier with text "package".
+[0.027s] 
+[0.027s] [0m
+[0.027s] -- Configuring incomplete, errors occurred!
+[0.030s] Invoked command in '/home/tan/mrt/mrt_ws/src/interface_opencv/build/interface_opencv' returned '1': /usr/bin/cmake /home/tan/mrt/mrt_ws/src/interface_opencv -DCMAKE_INSTALL_PREFIX=/home/tan/mrt/mrt_ws/src/interface_opencv/install/interface_opencv

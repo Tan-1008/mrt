@@ -1,0 +1,2 @@
+Invoking command in '/home/tan/mrt/mrt_ws/src/interface_opencv/build/interface_opencv': /usr/bin/cmake /home/tan/mrt/mrt_ws/src/interface_opencv -DCMAKE_INSTALL_PREFIX=/home/tan/mrt/mrt_ws/src/interface_opencv/install/interface_opencv
+Invoked command in '/home/tan/mrt/mrt_ws/src/interface_opencv/build/interface_opencv' returned '1': /usr/bin/cmake /home/tan/mrt/mrt_ws/src/interface_opencv -DCMAKE_INSTALL_PREFIX=/home/tan/mrt/mrt_ws/src/interface_opencv/install/interface_opencv
