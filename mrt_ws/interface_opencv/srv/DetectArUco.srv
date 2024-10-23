@@ -1,0 +1,5 @@
+sensor_msgs/Image img
+string path
+int64 frame
+---
+ArUcoMarker markers
