@@ -24,8 +24,6 @@ class MinimalClient(Node):
 
     def send_request(self,image_message,img_path, current_frame):
         
-        gray = cv2.cvtColor(cv2.imread(img_path), cv2.COLOR_BGR2GRAY)
-        image_message = Bridge.cv2_to_imgmsg(gray, encoding="bgr8")
         self.req.img = image_message
         self.req.path = img_path
         self.req.frame=current_frame
@@ -38,7 +36,7 @@ def logData (numAruco, current_frame, response):
     output_string= "Frame : "+ str(current_frame) + "Number of aruco markers " + str(numAruco) + "\n"
     for i in range(numAruco):
         output_string += "Marker " + str(i+1) + ": id = " + str(response.markers.ids[i]) + " Bounding points = "
-        output_string += '(' + ', '.join(map(str, response.markers.points)) + ') ' + '\n'
+        output_string += '(' + ', '.join(map(str, response.markers.bounds[i].points)) + ') ' + '\n'
     return output_string
 
 
@@ -47,32 +45,32 @@ def logData (numAruco, current_frame, response):
 def main(args=None):
     rclpy.init(args=args)
 
-    minimal_client = MinimalClient()
-    minimal_client.send_request()
+    client_vid = MinimalClient()
+    
     vid_path = str(sys.argv[1])
     cap = cv2.VideoCapture(vid_path)
     if cap.isOpened():
         current_frame=0
         while True:
-            ret,frame=cap.read()
+            ret, frame=cap.read()
             if ret :
                 if current_frame % 10 == 0 :
-                    gray = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
-                    image_message = Bridge.cv2_to_imgmsg(gray, encoding='bgr8')
-                    response = minimal_client.send_request(image_message, vid_path, current_frame)
+                    
+                    image_message = Bridge.cv2_to_imgmsg(frame, encoding='bgr8')
+                    response = client_vid.send_request(image_message, vid_path, current_frame)
 
                     while rclpy.ok():
-                        rclpy.spin_once(minimal_client)
-                        if minimal_client.future.done():
+                        rclpy.spin_once(client_vid)
+                        if client_vid.future.done():
                             try:
-                                response = minimal_client.future.result()
+                                response = client_vid.future.result()
                             except Exception as e:
-                                minimal_client.get_logger().info(
+                                client_vid.get_logger().info(
                                     'Service call failed %r' % (e,))
                             else:
                                 numAruco = len(response.markers.ids)
                                 output_string = logData(numAruco,current_frame,response)        
-                                minimal_client.get_logger().info(output_string)
+                                client_vid.get_logger().info(output_string)
 
                             break
             else:
@@ -81,7 +79,7 @@ def main(args=None):
         cap.release()
     cv2.destroyAllWindows()
                                 
-    minimal_client.destroy_node()
+    client_vid.destroy_node()
     rclpy.shutdown()
 
 

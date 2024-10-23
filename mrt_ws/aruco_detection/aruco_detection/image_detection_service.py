@@ -11,7 +11,7 @@ import numpy as np
 import cv2
 
 Bridge = CvBridge()
-arucoDict = cv2.aruco.getPredefinedDictionary(cv2.aruco.DICT_6X6_250)
+arucoDict = cv2.aruco.getPredefinedDictionary(cv2.aruco.DICT_4X4_250)
 parameters=cv2.aruco.DetectorParameters()
 
 class MinimalService(Node):
@@ -32,7 +32,7 @@ class MinimalService(Node):
                 point.x=float(corners[i][0][j][0])
                 point.y=float(corners[i][0][j][1])
                 point.z = 0.0
-                response.markers.bounds[i].points.append(point)
+                response.markers.bounds[i].points.append(point)  #inside polygon bounds[i] u have to do bounds.point.append (syntax)
             
 
             
